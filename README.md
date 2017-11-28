@@ -1,6 +1,6 @@
 # rollup-plugin-strip-prop-types
 
-Remove `propTypes` and `defaultProps` statements from ReactJs components.
+Remove `propTypes` and `defaultProps` statements from ReactJs components, also removes the imported package. It expect you are using `prop-types` package.
 
 
 ## Installation

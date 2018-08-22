@@ -53,6 +53,7 @@ export default function removeLines (magicString, code, file, options) {
       // strip away propTypes or defaultProps definitions
       if (node.type === 'ExpressionStatement' && 
           node.expression.type === 'AssignmentExpression' &&
+          node.expression.left.property &&
          (node.expression.left.property.name === 'propTypes' ||
           node.expression.left.property.name === 'defaultProps')) {
         remove( node.start, node.end )

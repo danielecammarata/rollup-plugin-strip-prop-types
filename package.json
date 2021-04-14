@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/danielecammarata/rollup-plugin-strip-prop-types#readme",
   "dependencies": {
-    "acorn": "^3.1.0",
+    "acorn": "^7.1.1",
     "acorn-jsx": "^4.1.0",
     "estree-walker": "^0.2.1",
     "magic-string": "^0.15.0",
